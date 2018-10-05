@@ -15,6 +15,8 @@ def QLearning(env, num_episodes, gamma, lr, e):
 
     Q = np.zeros((env.nS, env.nA))
     
+    #TIPS: Call function epsilon_greedy without setting the seed
+    #      Choose the first state of each episode randomly for exploration.
     ############################
     # YOUR CODE STARTS HERE
 
