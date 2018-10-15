@@ -4,7 +4,7 @@ import random
 
 def QLearning(env, num_episodes, gamma, lr, e):
     """
-    Implement the Q-learning algorithm following the epsilon-greedy exploration. Update Q at the end of every episode.
+    Implement the Q-learning algorithm following the epsilon-greedy exploration.
 
     Inputs:
     env: OpenAI Gym environment 

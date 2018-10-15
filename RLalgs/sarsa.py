@@ -4,7 +4,7 @@ import random
 
 def SARSA(env, num_episodes, gamma, lr, e):
     """
-    Implement the SARSA algorithm following epsilon-greedy exploration. Update Q at the end of every episode.
+    Implement the SARSA algorithm following epsilon-greedy exploration.
 
     Inputs:
     env: OpenAI Gym environment 

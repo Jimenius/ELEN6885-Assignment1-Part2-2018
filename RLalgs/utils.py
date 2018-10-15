@@ -37,6 +37,7 @@ def epsilon_greedy(value, e, seed = None):
 
 def action_evaluation(env, gamma, v):
     '''
+    Convert V value to Q value with model.
     
     Inputs:
     env: OpenAI Gym environment
