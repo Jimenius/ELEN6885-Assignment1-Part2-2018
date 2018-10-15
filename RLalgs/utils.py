@@ -139,7 +139,7 @@ def human_play(env):
                     number of actions
     '''
     
-    print('Action indices: LEFT=0, DOWN = 1, RIGHT = 2, UP = 3')
+    print('Action indices: LEFT = 0, DOWN = 1, RIGHT = 2, UP = 3')
     state = env.reset()
     env.render()
     terminal = False
