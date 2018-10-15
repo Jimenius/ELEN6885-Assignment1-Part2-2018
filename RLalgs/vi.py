@@ -46,7 +46,7 @@ def value_iteration(env, gamma, max_iteration, theta):
 def extract_policy(env, v, gamma):
 
     """ 
-    Extract the optimal policy given the optimal value-function
+    Extract the optimal policy given the optimal value-function.
 
     Inputs:
     env: OpenAI Gym environment.
