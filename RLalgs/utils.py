@@ -70,7 +70,7 @@ def action_evaluation(env, gamma, v):
         for a in range(nA):
             ############################
             # YOUR CODE STARTS HERE
-
+            pass
             # YOUR CODE ENDS HERE
             ############################
     return q
